@@ -1,0 +1,62 @@
+*{
+    padding : 0%;
+    margin : 0%;
+}
+
+
+.item{
+    width : 50px;
+    height : 50px;
+}
+
+.item1{
+    background-color: #f44336;
+    
+}
+.item2{
+    background-color: #ff9800;
+    position : relative;
+    left : 50px;
+   
+}
+.item3{
+    background-color: #ffeb3b;
+    position : relative;
+    left : 100px;
+}
+.item4{
+    background-color: #c0ca33;
+    position : relative;
+    left : 50px;
+    top : 50px;
+}
+.item5{
+    background-color: #43a047;
+    position : absolute; /* body가 부모 */
+    left : 100px;
+}
+.item6{
+    background-color: #00acc1;
+}
+.item7{
+    background-color: #3949ab;
+    position : absolute;
+    left : 100px;
+}
+.item8{
+    background-color: #5e35b1;
+    position : absolute; /* 부모 요소 중 static이 아닌 부모가 기준 */
+    left : 50px;
+    top : 50px;
+}
+.item9{
+    background-color: #8e24aa;
+}
+.item10{
+    background-color: #d81b60;
+}
+
+.parent{
+    border : 3px solid black;
+    position : absolute;
+}

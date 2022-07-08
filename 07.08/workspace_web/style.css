@@ -1,0 +1,16 @@
+#lorem3{
+    color:navy;
+}
+
+.halfImg{
+    min-width : 10%;
+}
+
+span{
+    display: block;
+}
+
+/* #divCenter{
+    display : flex;
+    justify-content : center;
+} */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "myScript.js"></script>
+    
+    <style>
+       #lorem2{
+            color:green;
+       } 
+
+       #lorem1{
+            color:brown;
+       }
+    </style>
+
+</head>
+<body>
+    <h1><a href="http://www.naver.com">네이버</a></h1>
+
+    <!-- 1. 인라인 속성으로 변경 -->
+    <div id = "lorem1" style="color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusamus sapiente, aliquam corporis ducimus illum architecto quidem deserunt quaerat natus, a quas animi, blanditiis eligendi! Soluta magni atque ratione voluptatum.</div>
+
+    <!-- 2. 내부 스타일 태그로 변경 -->
+    <div id = "lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusamus sapiente, aliquam corporis ducimus illum architecto quidem deserunt quaerat natus, a quas animi, blanditiis eligendi! Soluta magni atque ratione voluptatum.</div>
+
+    <!-- 3. 외부 파일로 변경 -->
+    <div id = "lorem3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat accusamus sapiente, aliquam corporis ducimus illum architecto quidem deserunt quaerat natus, a quas animi, blanditiis eligendi! Soluta magni atque ratione voluptatum.</div>
+
+    <div id = "divCenter">
+        <img id = "myImg" class = "halfImg" src="https://assets.justinmind.com/wp-content/uploads/2018/11/Lorem-Ipsum-alternatives-768x492.png" alt="lorem image">
+    </div>
+    
+    <button id="btn1" name="btn1" class="mybtn" onclick = "changeColor()">색 바꾸기</button>
+    <button id="btn10" name="btn1" class="mybtn" onclick = "changeManyColor()">여러개 색 변경</button>
+    <button id="btn2" name="btn2" class="mybtn" onclick = "changeSize()">크기 바꾸기</button>
+    <button id="btn3" name="btn3" class="mybtn">동적 dom 추가</button>
+    <button id="btn4" name="btn4" class="mybtn" onclick = "deleteDom()">동적 dom 제거</button>
+    <button id="btn5" name="btn5" class="mybtn" onclick = "centerAlign()">가운데 정렬</button>
+
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+
+    <span>span1</span>
+    <span>span2</span>
+    <span>span3</span>
+
+</body>
+</html>
